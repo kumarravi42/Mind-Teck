@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Mind Tech</string>
+
+    <!-- In res/values/styles.xml -->
+    <style name="CustomSearchView" parent="Widget.AppCompat.SearchView">
+        <item name="android:textColor">@color/black</item> <!-- Text color -->
+        <item name="android:textColorHint">@color/black</item> <!-- Hint text color -->
+        <item name="queryBackground">@android:color/transparent</item> <!-- Transparent background -->
+        <item name="searchIcon">@drawable/ic_search_white</item> <!-- Custom search icon drawable -->
+    </style>
+
+</resources>
